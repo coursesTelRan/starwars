@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Poller One", serif;
+    background-image: url("../Images/sky.jpg");
+    color: #eedb00;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: rgba(60, 69, 67, 0.6);
+}
+
+header {
+    border-radius: 15px 15px 0 0;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    top: 5px;
+    left: 40px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em 0;
+}
+.right h2{
+    text-align: center;
+}
+.left {
+    width: 25%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    margin: 5px 5px 0;
+}
+
+img {
+    width: 100%;
+}
+.left img {
+    box-shadow: 10px 10px rgba(67, 83, 67, 0.6);
+}
+.right img{
+    width: 33%;
+    margin: 0.15%;
+    float: left;
+}
+
+.fargalaxy{
+    text-align: justify;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    padding: 0.2em;
+    margin: 15px 30px;
+}
+footer {
+    height: 6em;
+    clear: both;
+}
+.button{
+    height: 2em;
+    width: 15em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-align: center;
+}
+.email{
+    font-size: 1.5em;
+}
+.button_style{
+    border: 2px solid black;
+    background-color: rgba(204, 3, 35, 0.5);
+    cursor: pointer;
+}
+.bottom_left{
+    border-bottom-left-radius: 20px;
+}
+.bottom_right{
+    border-bottom-right-radius: 20px;
+}
